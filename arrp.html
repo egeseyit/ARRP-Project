@@ -14,9 +14,9 @@
 		<div class="sidebar">
 			<div class="top_sec">
 				<a href="arrp.html">
-					<img src="" alt="Logo" style="vertical-align:middle;margin:20px 0px;">
+					<img src="arrp_invert.png" alt="Logo" style="width:200px; height:200px; float: left;">
 				</a>
-			</div>>
+			</div>
 			<div class="navbar"> 
 				<!--Insert the navigation links-->
 				<!--About Us-->
@@ -26,22 +26,27 @@
 				<!--How to Support Us-->
 				<!--Contact Us-->
 
-				<div style="order: 1"><a href="#Dinle">Dinle</a></div>
-				<div style="order: 2">İllüstrasyonlar</div>
-				<div style="order: 3">Sanatçılar Hakkında</div>
-				<div style="order: 4">Bizi Destekleyin</div>
-				<div style="order: 5">Bize Ulaşın</div>
-				<div style="order: 6">Hakkımızda</div>
+				<a href="dinle.html" style="font-family: candara; color: white;">Dinle</a>
+				<a href="illüstrasyon.html" style="font-family: candara; color: white;">İllüstrasyonlar</a>
+				<a href="sanatçı.html" style="font-family: candara; color: white">Sanatçılar Hakkında</a>
+				<a href="destek.html" style="font-family: candara; color: white">Bizi Destekleyin</a>
+				<a href="ulaşın.html" style="font-family: candara; color: white;">Bize Ulaşın</a>
+				<a href="hakkımızda.html" style="font-family: candara; color: white;">Hakkımızda</a>
 			</div>
 		</div>
 
 		<style>
-			.navbar {
+			.sidebar {
+				height: 100%;
+				float: left;
+				width: 300px;
+				position:absolute;
+				padding-top: 0px;padding-left: 30px;
 				display: flex;
-				flex-direction: column;
-				flex-wrap: nowrap;
+				flex-direction: column;flex-wrap: nowrap;
 				justify-content: flex-start;
-				justify-content: space-evenly;
+				overflow: hidden;
+				background-color: #202020;
 			}
 
 		</style>
