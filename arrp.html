@@ -1,55 +1,70 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="tr">
-<head>	
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head>
 
-	<title>Anatolian Rock Revival Project</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Anatolian Rock Revival Project</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap">
 </head>
-	<body> 
-		<div class="sidebar">
-			<div class="top_sec">
-				<a href="arrp.html">
-					<img src="arrp_invert.png" alt="Logo" style="width:200px; height:200px; float: left;">
-				</a>
-			</div>
-			<div class="navbar"> 
-				<!--Insert the navigation links-->
-				<!--About Us-->
-				<!--Listen-->
-				<!--Cover Art-->
-				<!--Artist Information-->
-				<!--How to Support Us-->
-				<!--Contact Us-->
 
-				<a href="dinle.html" style="font-family: candara; color: white;">Dinle</a>
-				<a href="illüstrasyon.html" style="font-family: candara; color: white;">İllüstrasyonlar</a>
-				<a href="sanatçı.html" style="font-family: candara; color: white">Sanatçılar Hakkında</a>
-				<a href="destek.html" style="font-family: candara; color: white">Bizi Destekleyin</a>
-				<a href="ulaşın.html" style="font-family: candara; color: white;">Bize Ulaşın</a>
-				<a href="hakkımızda.html" style="font-family: candara; color: white;">Hakkımızda</a>
-			</div>
-		</div>
+<body>
+    <div class="header" style="height: 300px; width: 300px; background-color: #202020;">
+        <a href="arrp.html" id="logo">
+            <img src="arrp_invert.png" alt="Logo" style="width:300px; height:300px; float: left;">
+        </a>
+    </div>
 
-		<style>
-			.sidebar {
-				height: 100%;
-				float: left;
-				width: 300px;
-				position:absolute;
-				padding-top: 0px;padding-left: 30px;
-				display: flex;
-				flex-direction: column;flex-wrap: nowrap;
-				justify-content: flex-start;
-				overflow: hidden;
-				background-color: #202020;
-			}
 
-		</style>
+    <div>
+        <ul>
+            <li><a class="active" href="dinle.html">Dinle</a>
+            </li>
+            <li><a class="active" href="#illustrasyon.html">İllüstrasyonlar</a>
+            </li>
+            <li><a class="active" href="#tarih.html">Anadolu Rock'un Tarihi</a>
+            </li>
+            <li><a class="active" href="#destek.html">Bizi Destekleyin</a>
+            </li>
+            <li><a class="active" href="#ulas.html">Bize Ulaşın</a>
+            </li>
+            <li><a class="active" href="#hakkimizda.html">Hakkımızda</a>
+            </li>
+        </ul>
 
-	</body>
+
+</body>
+
+<style>
+    li a {
+        text-decoration: none;
+        display: block;
+        padding: 20px 40px;
+        color: whitesmoke;
+    }
+    
+    li a:hover {
+        background-color: wheat;
+        color: black;
+    }
+    
+    ul {
+        list-style-type: none;
+        font-family: 'Rowdies', cursive;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        position: fixed;
+        background-color: #202020;
+        color: whitesmoke;
+        overflow: auto;
+        height: 100%;
+    }
+</style>
+
 </html>
